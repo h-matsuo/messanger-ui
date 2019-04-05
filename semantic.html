@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Messeanger</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-left">
+      <img alt="my profile" class="profile-img" src="img/profile.jpg" />
+      <h1 class="title">チャット</h1>
+    </div>
+    <div class="header-navigation">
+      <button>
+        <img alt="" class="header-nav-icon" src="img/camera.png" />
+      </button>
+      <button>
+        <img alt="" class="header-nav-icon"  src="img/write.png"/>
+      </button>
+    </div>
+  </header>
+  <form class="search">
+    <input
+      class="search-input"
+      placeholder="検索"
+     />
+  </form>
+  <section class="friend-list-wrap">
+    <div class="friend-list">
+      <div class="friend-list-item">
+        <span class="new-story__button">+</span>
+        <span class="friend-list-item__name">ストーリーズ</span>
+      </div>
+      <div class="friend-list-item story">
+        <img alt="" class="friend-list-item__icon" src="img/profile-2.jpg" />
+        <span class="friend-list-item__name">和樹</span>
+      </div>
+      <div class="friend-list-item">
+        <img alt="" class="friend-list-item__icon" src="img/profile-3.jpg" />
+        <span class="friend-list-item__name">和樹</span>
+      </div>
+      <div class="friend-list-item">
+        <img alt="" class="friend-list-item__icon" src="img/profile.jpg" />
+        <span class="friend-list-item__name">和樹</span>
+      </div>
+      <div class="friend-list-item">
+        <img alt="" class="friend-list-item__icon" src="img/profile-2.jpg" />
+        <span class="friend-list-item__name">和樹</span>
+      </div>
+    </div>
+  </section>
+  <main class="messages">
+    <div class="message-list-item">
+      <img alt="" class="message-list-item__icon online" src="img/profile-2.jpg" />
+      <span class="online-tag"></span>
+      <div class="message-list-item__body">
+        <span class="message-list-item__name">井手優太</span>
+        <span class="message-list-item__text">あなた: やばいっすね・12:33</span>
+      </div>
+      <img alt="" class="message-list-item__status" />
+    </div>
+    <div class="message-list-item">
+      <img alt="" class="message-list-item__icon" src="img/profile.jpg" />
+      <span class="online-tag"></span>
+      <div class="message-list-item__body">
+        <span class="message-list-item__name">Seesaa</span>
+        <span class="message-list-item__text">Kan: すみません、遅れてます...・12:33</span>
+      </div>
+      <img alt="" class="message-list-item__status" />
+    </div>
+    <div class="message-list-item-ad">
+      <img alt="" class="message-list-item-ad__icon" src="img/profile-2.jpg" />
+      <div class="message-list-item-ad__body">
+        <div class="message-list-item-ad__body-heading">
+          <span class="message-list-item-ad__name">GoodfindCareer</span>
+          <button class="message-list-item__config-button">･･･</button>
+        </div>
+        <span class="message-list-item-ad__tag">広告</span>
+        <div class="message-list-item-ad__main-text">
+          <p>
+            [28歳]<br />
+            いつかは経営者になりたい... <span class="read-more">もっと見る</span>
+          </p>
+          <img alt="ad image" class="message-list-item__main-img" src="img/ad.png" />
+          <div class="message-list-item-ad__foot">
+            <span class="message-list-item-ad__foot-message">Messangerでベンチャー専門家に...</span>
+            <button class="message-list-item-ad__foot-send">メッセージを送信</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="message-list-item">
+      <img alt="" class="message-list-item__icon" src="img/profile-2.jpg" />
+      <div class="message-list-item__body">
+        <span class="message-list-item__name">山本太郎</span>
+        <span class="message-list-item__text">あなた: やばいっすね・12:33</span>
+      </div>
+      <img alt="" class="message-list-item__status" />
+    </div>
+     <div class="message-list-item">
+      <img alt="" class="message-list-item__icon" src="img/profile-3.jpg" />
+      <div class="message-list-item__body">
+        <span class="message-list-item__name">ゆうすけ</span>
+        <span class="message-list-item__text">あなた: やばいっすね・12:33</span>
+      </div>
+      <img alt="" class="message-list-item__status" />
+    </div>
+  </main>
+  <nav class="tab-bar">
+    <button class="tab-bar__button message">
+      <img alt="tabbar button message" class="tab-bar__button-icon message" src="img/message.png" />
+    </button>
+    <button class="tab-bar__button friends">
+      <span class="tabbar-badge">24</span>
+      <img alt="tabbar button friends" class="tab-bar__button-icon friends" src="img/friend.png" />
+    </button>
+    <button class="tab-bar__button find">
+      <img alt="tabbar button find" class="tab-bar__button-icon find" src="img/find.png" />
+    </button>
+  </nav>
+</body>
+</html>
